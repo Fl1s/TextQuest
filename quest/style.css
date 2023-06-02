@@ -1,0 +1,136 @@
+.body {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.bodyGlitch {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(77, 1, 54);
+}
+
+.glitch {
+  size: 100px;
+  width: 82px;
+}
+
+.randomBlock {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(182, 3, 3);
+  display: flex;
+  background-color: rgb(116, 56, 56);
+  color: rgb(41, 87, 213);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.block:not(:last-child) {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(5, 90, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rebeccapurple;
+  margin-bottom: 10px;
+}
+
+.block:last-child {
+
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  background-color: black;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.block:hover {
+  opacity: 0.5;
+  border: none;
+  transform: scale(2, 2);
+  z-index: 1000;
+}
+
+.hiddenBlock {
+  position: absolute;
+}
+
+.div1 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(48, 119, 106);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.div2 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(133, 6, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+.div3 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(202, 199, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.div4 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(29, 20, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.div5 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(101, 46, 98);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+.div6 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(109, 22, 58);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 80px;
+}
