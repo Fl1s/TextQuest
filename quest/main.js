@@ -1,5 +1,5 @@
 const start = document.querySelector(".startBtn");
-// Не подсматривать!
+// Не подсматривать!!
 start.addEventListener("click", () => {
   start.style.display = "none";
 
